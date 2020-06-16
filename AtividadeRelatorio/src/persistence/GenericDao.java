@@ -15,7 +15,7 @@ public class GenericDao {
 			con = DriverManager
 					.getConnection(
 							"jdbc:jtds:sqlserver://127.0.0.1:1433;DatabaseName=AtividadeRelatorios;namedPipe=true",
-							"rafael", "ttdcrsi4r");
+							"rafael", "123456");
 			System.out.println("Conexao ok");
 		} catch (ClassNotFoundException e) {
 			e.printStackTrace();
